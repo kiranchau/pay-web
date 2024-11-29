@@ -1,0 +1,52 @@
+{
+  "name": "sponsor-pay",
+  "version": "1.5.1",
+  "description": "RealTime Sponsor Pay application.",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo 'testing'",
+    "cloc": "cloc --exclude-list-file=.clocignore .",
+    "build": "webpack -p && grunt production",
+    "dev": "webpack -d && grunt"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "convert-excel-to-json": "^1.6.1",
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-exec": "^1.0.0",
+    "json2csv": "^5.0.6",
+    "knex": "^0.20.10",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-table-container": "github:RGSSoftware/react-table-container#RGSSoftware-patch-1",
+    "recharts": "^1.5.0",
+    "sass": "^1.62.0",
+    "styled-jsx": "^3.1.3",
+    "webpack": "^3.5.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "clean-css-cli": "^5.6.2",
+    "eslint": "^5.15.3",
+    "eslint-plugin-react": "^7.12.4",
+    "grunt-cli": "^1.4.3",
+    "uglify-js": "^3.17.4"
+  }
+}
